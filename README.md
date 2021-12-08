@@ -8,6 +8,8 @@
 6. Coppleia Simulation
 7. System Simulation
 8. Results and Conclusion
+9. References
+10. Appendices
 
 # 1. Introduction
 The Inertia Wheel Pendulum is an underactuated 2-DoF system consisting of a pendulum arm connected to an inertal mass, the wheel. The wheel is actuated by a single servor motor, which exerts a torque on the wheel. The system is controlled by using the motor to add or remove angular energy and momentum to the system. 
@@ -37,3 +39,8 @@ Control of the Inertia Wheel Pendulum consists of 2 phases: the swing-up, and ma
 
 
 # 8. Results and Conclusion
+
+# 9. References
+[1] Hernández-Guzmán Victor Manuel, &amp; Silva-Ortigoza Ramón. (2019). Automatic control with experiments. Springer. 
+
+[2] Brevik, P. (2017). Two-Axis Reaction Wheel Inverted Pendulum.
