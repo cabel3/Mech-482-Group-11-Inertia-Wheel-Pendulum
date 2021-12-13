@@ -25,9 +25,8 @@ Control of the Inertia Wheel Pendulum consists of 2 phases: the swing-up, and ma
 
 # 3. Derivation
 To begin, a simple model of the system was created.
-<p align="center">
-  ![alt text](https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Diagram%20and%20lagrangian%20eqns%20of%20motion.png)
-</p>
+
+![alt text](https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Diagram%20and%20lagrangian%20eqns%20of%20motion.png)
 <p align="center"><b>Figure 1:</b> Simple Model and Euler-Lagrange Equations</p>
 
 
