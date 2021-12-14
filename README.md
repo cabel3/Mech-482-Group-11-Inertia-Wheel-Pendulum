@@ -26,9 +26,67 @@ Control of the Inertia Wheel Pendulum consists of 2 phases: the swing-up, and ma
 # 3. Derivation
 To begin, a simple model of the system was created.
 
-![alt text](https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Diagram%20and%20lagrangian%20eqns%20of%20motion.png)
+![Model and EL Eqns](https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Diagram%20and%20lagrangian%20eqns%20of%20motion.png)
 <p align="center"><b>Figure 1:</b> Simple Model and Euler-Lagrange Equations</p>
 
+For clarity, the parameters of the system will now be defined:
+* m_1 - mass of pendulum arm
+* I_1 - moment of inertia of pendulum arm
+* l_c - distance from pivot to center of mass of pendulum
+* m_2 - mass of reaction wheel
+* I_2 - moment of inertia of reaction wheel
+* l_1 - length of pendlum arm, or distance of wheel from pivot
+* q_1 - angle of pendulum arm relative to positive vertical
+* q_1_dot - angluar velocity of pendulum arm
+* q_1_dot_dot - angluar acceleration of pendulum arm
+* q_2 - angle of wheel relative to pendulum arm
+* q_2_dot - angular velocity of reaction wheel
+* q_2_dot_dot - angluar acceleration of reaction wheel
+* tau - torque applied to reaction wheel by motor
+
+Because this system has two degrees of freedom, q_1 for the angle of the pendulum arm and q_2 for the angle of the wheel, two Euler-Lagrange equations are needed to describe the motion of this system. The only force acting on the system is the torque on the wheel applied by a motor.
+
+To complete the above equations of motion, the lagrangian of the system must be found. The lagrangian is defined as the difference between the kinetic and potential energies of the system.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/lagrangian.png" />
+</p>
+<p align="center"><b>Figure 2:</b> Lagrangian</p>
+
+The kinetic energies of the pendulum and wheel must now be found, with the subscript 1 indicating the pendulum arm and the subscript 2 indicating the wheel.
+
+![Kinetic Energy](https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Kinetic%20energies.png)
+<p align="center"><b>Figure 3:</b> Kinetic Energies of System</p>
+
+The total angular velocity of the wheel is the sum of the angular velocity of the pendulum and the relative angular velocity of the wheel.
+
+The potential energy of the system must now by found. The datum is defined to be coincident with the main pivot of the pendulum, and parallel with the ground. To make use of the small angle approximation later, the angle of the pendlum is relative to positive vertical.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Potential%20Energy.png" />
+</p>
+<p align="center"><b>Figure 4:</b> Potential Energies of System</p>
+
+The kinetic and potential energies can now be substituted into the lagrangian.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Filled%20out%20lagrangian.png" />
+</p>
+<p align="center"><b>Figure 5:</b> Substitution into Lagrangian</p>
+
+The partial differentials of the lagrangian must now be taken to form the equations of motion of the system.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Partial%20derivatives.png" />
+</p>
+<p align="center"><b>Figure 6:</b> Partial Differentials of Lagrangian</p>
+
+Now, the partial derivatives can be substitued into their places in the Euler-Lagrange equations of motion.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/eqns%20of%20motion.png" />
+</p>
+<p align="center"><b>Figure 7:</b> Non-linear Equations of Motion</p>
 
 # 4. MATLAB Code
 
