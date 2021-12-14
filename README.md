@@ -24,6 +24,7 @@ Control of the Inertia Wheel Pendulum consists of 2 phases: the swing-up, and ma
 * To arrive at a functional control scheme that is able to bring the pendulum back to inverted position after small deflection
 
 # 3. Derivation
+# Math Model
 To begin, a simple model of the system was created.
 
 ![Model and EL Eqns](https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/Diagram%20and%20lagrangian%20eqns%20of%20motion.png)
@@ -87,6 +88,28 @@ Now, the partial derivatives can be substitued into their places in the Euler-La
   <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/eqns%20of%20motion.png" />
 </p>
 <p align="center"><b>Figure 7:</b> Non-linear Equations of Motion</p>
+
+By using the small-angle aproximation, the -sin(q_1) term in the first equation can be reduced to -q_1, allowing the system to be linearized.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/math%20model.png" />
+</p>
+<p align="center"><b>Figure 8:</b> Linearized Equations of Motion</p>
+
+# State-Space Representation
+The math model of the system must be converted into a state-space representation in order to devlop a control scheme. To do this, the equations of motion must be solved for the highest order terms, q_1_dot_dot and q_2_dot_dot.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/reaaranging%20to%20get%20SSR.png" />
+</p>
+<p align="center"><b>Figure 9:</b> Rearranging Math Model to get SSR</p>
+
+Finally, substitution of Q gets the final state-space representation of the system.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/Photos/Derivation/SSR.png" />
+</p>
+<p align="center"><b>Figure 10:</b> State-Space Representation</p>
 
 # 4. MATLAB Code
 
