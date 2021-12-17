@@ -194,7 +194,7 @@ The Coppelia model was created by linking simple objects with joints. A joint at
 # 8. Results and Conclusion
 
 While it was possible to establish a link between MATLAB and Coppelia, we were not able to get actual signals to be sent from or to Coppelia. With more time and troubleshooting, it is possible to control the Coppelia model via signals sent from MATLAB, and to have a controler in MATLAB respond accordingly to the measurements it receives from Coppelia.
-
+Unfortunatly due to not having a working Matlab and Simulink combination, it proved to impossible to control the Coppelia sim. 
 # 9. References
 [1] Hernández-Guzmán Victor Manuel, &amp; Silva-Ortigoza Ramón. (2019). Automatic control with experiments. Springer. 
 
