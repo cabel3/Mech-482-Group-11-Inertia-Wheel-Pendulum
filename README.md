@@ -186,12 +186,14 @@ To simulates the system as if it were actually physical, a scene of the sytem wa
 </p>
 <p align="center"><b>Figure 18</b> Animation of Coppelia Inertia Pendulum </p>
 
-While it was possible to establish a link between MATLAB and Coppelia, we were not able to get actual signals to be sent from or to Coppelia, rendering this physical model uncontrolled.
+The Coppelia model was created by linking simple objects with joints. A joint attaches the pendulum arm to the bass, and another joint connects ther eaction wheel to the pendulum arm. The animation here is to establish that a viable Coppelia model was made.
 
 # 7. System Simulation
 
 
 # 8. Results and Conclusion
+
+While it was possible to establish a link between MATLAB and Coppelia, we were not able to get actual signals to be sent from or to Coppelia. With more time and troubleshooting, it is possible to control the Coppelia model via signals sent from MATLAB, and to have a controler in MATLAB respond accordingly to the measurements it receives from Coppelia.
 
 # 9. References
 [1] Hernández-Guzmán Victor Manuel, &amp; Silva-Ortigoza Ramón. (2019). Automatic control with experiments. Springer. 
