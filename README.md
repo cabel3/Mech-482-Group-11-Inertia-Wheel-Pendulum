@@ -1,4 +1,15 @@
 # Mech-482-Group-11-Inertia-Wheel-Pendulum
+
+                         Project Members: Christopher Abel, Brendan Boozer, Spencer Monroe
+
+                                          California State University, Chico
+
+                    College of Mechanical and Mechatronic Engineering and Advance Manufacturing
+
+                                          Inverted Inertia Wheel Pendulum
+
+                                                     Fall 2021
+
 # Table of Contents
 1. Introduction
 2. Objectives
