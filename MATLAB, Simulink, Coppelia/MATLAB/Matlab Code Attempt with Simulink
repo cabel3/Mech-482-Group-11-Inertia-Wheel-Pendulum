@@ -1,0 +1,62 @@
+clear all, close all, clc;
+
+% The representation of the system in vector matrix format
+% where we have x1, x2, x3, x4
+m1 = .05975; % kg; mass of pendulum arm
+L1 = .117; % meter; length of pendulum arm to wheel
+Lc = L1/2;  % meter; center of mass of pendulum arm
+I1 = .000048463; % kg*m^2; Moment of inertia of pendulum arm
+m2 = .058; % kg; mass of wheel
+I2 = .0000076242; % kg*m^2; Moment of inertia of wheel
+mBar = m1*Lc + m2*L1; % Substitution variable to make calculation easier
+g = 9.81; % m/s^2; gravity
+
+Q = m1*Lc^2 + m2*L1^2 + I1;
+
+A = [0, 1, 0, 0; mBar*g/Q, 0, 0, 0; 0, 0, 0, 1; -mBar*g/Q, 0, 0, 0];
+B = [0; -1/Q; 0; (1+I2/Q)/I2];
+C = [1, 0, 0, 0];
+%D = zeros(size(C,1),1);
+D = 0;
+
+% Definition of the system in s-domain
+sys_tf = ss2tf(A,B,C,D)
+
+% Definition of the system in state space
+sys_ss = ss(A,B,C,D)
+
+%% Solving sys and plotting its numerical dynamic simulation (response)
+t = 0:0.01:100;                 % Time span
+%u = ones(size(t,2),1);    % Step input
+u = sin(t);
+x = [ 0 0 pi/8 0]';                  % Initial conditions
+[Y,T,X] = lsim(sys_ss,u,t,x);
+
+%%Controller
+des_pole = [-3;-3;-3;-3]*1;
+K = acker(A,B,des_pole);
+Q = 20*eye(4)
+R = .1;
+K_lqr = lqr(A,B,Q,R)
+
+% %%Discrete Time
+% Ts = .1;
+% sys_d = c2d(sys_ss,Ts);
+% Ad = sys_d.a;
+% Bd = sys_d.b;
+% Cd = sys_d.c;
+% Dd = sys_d.d;
+% 
+% des_pole_d = [0.3;.3;.3;.3]*1;
+% K_d = acker(Ad,Bd,des_pole_d)
+% 
+% 
+% des_pole_d = [0.3;.3;.3;.3]*.1;
+% Ob = acker(Ad',Cd',des_pole_d)
+
+% % Plotting the result
+% figure; hold on;
+% plot(t,u,'r');
+% plot(T,Y,'m-.','linewidth',2);
+% % axis([-1.5 t(end) -.5 1.5])
+% legend('reference','response');
