@@ -182,7 +182,7 @@ To simulate the system as if it were actually physical, a scene of the system wa
 </p>
 <p align="center"><b>Figure 18</b> Animation of Coppelia Inertia Pendulum </p>
 
-The Coppelia model was created by linking simple objects with joints. A joint attaches the pendulum arm to the bass, and another joint connects the reaction wheel to the pendulum arm. The animation here is to establish that a viable Coppelia model was made.
+The Coppelia model was created by linking simple objects with joints. A joint attaches the pendulum arm to the base, and another joint connects the reaction wheel to the pendulum arm. The animation here is to establish that a viable Coppelia model was made.
 
 # 7. Results and Conclusion
 
