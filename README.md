@@ -124,7 +124,16 @@ Finally, substitution of Q gets the final state-space representation of the syst
 
 # 4. MATLAB Code
 
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Matlab%20Code/try4matlab.JPG" />
+</p>
+<p align="center"><b>Figure 11:</b> Matlab Attempt Using State Space</p>
 
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Matlab%20Code/mymodelmatlab'.JPG" />
+</p>
+<p align="center"><b>Figure 12:</b> Matlab Attempt Using Pendulm Cart Tutorial</p>
 # 5. Simulink Diagram
 
 
