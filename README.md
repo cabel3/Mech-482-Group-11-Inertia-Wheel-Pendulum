@@ -134,7 +134,38 @@ Finally, substitution of Q gets the final state-space representation of the syst
   <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Matlab%20Code/mymodelmatlab'.JPG" />
 </p>
 <p align="center"><b>Figure 12:</b> Matlab Attempt Using Pendulm Cart Tutorial</p>
+
 # 5. Simulink Diagram
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Simulink/try4sim.JPG" />
+</p>
+<p align="center"><b>Figure 13:</b> Simulink Attempt Using In Class Files As Base</p>
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Simulink/try4controller.JPG" />
+</p>
+<p align="center"><b>Figure 14:</b> Simulink Controller Attempt</p>
+
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Simulink/mymodeloverview.JPG" />
+</p>
+<p align="center"><b>Figure 15:</b> Simulink Controller Attempt Overview From Tutorial</p>
+
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Simulink/mymodelsystem.JPG" />
+</p>
+<p align="center"><b>Figure 16:</b> Simulink System Attempt From Tutorial</p>
+
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Simulink/mymodelcontroller.JPG" />
+</p>
+<p align="center"><b>Figure 17</b> Simulink Controller Attempt From Tutorial </p>
+
+
 
 
 # 6. Coppelia Simulation
