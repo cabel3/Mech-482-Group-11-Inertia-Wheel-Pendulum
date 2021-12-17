@@ -142,7 +142,8 @@ With newfound knowledge of Matlab and Simulink together, many attempts and rendi
 
 # 5. Simulink Diagram
 
-Utalizing a base provided by 
+Utilizing a base provided by 
+
 <p align="center">
   <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Simulink/try4sim.JPG" />
 </p>
