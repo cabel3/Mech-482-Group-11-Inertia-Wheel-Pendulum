@@ -17,10 +17,8 @@
 4. MATLAB Code
 5. Simulink Diagram
 6. Coppelia Simulation
-7. System Simulation
-8. Results and Conclusion
-9. References
-10. Appendices
+7. Results and Conclusion
+8. References
 
 # 1. Introduction
 The Inertia Wheel Pendulum is an underactuated 2-DoF system consisting of a pendulum arm connected to an inertal mass, the wheel. The wheel is actuated by a single servo motor, which exerts a torque on the wheel. The system is controlled by using the motor to add or remove angular energy and momentum to the system. 
@@ -138,8 +136,6 @@ With newfound knowledge of Matlab and Simulink together, many attempts and rendi
 <p align="center"><b>Figure 11:</b> Matlab Attempt Using State Space</p>
 
 
-
-
 # 5. Simulink Diagram
 
 Utilizing the base provided by the professor, and a controller created by following the tutorial, this Simulink module was created. Unfortunately it never quite performed as hoped, and many many renditions and attempts were made to utilize this system. 
@@ -188,14 +184,12 @@ To simulates the system as if it were actually physical, a scene of the sytem wa
 
 The Coppelia model was created by linking simple objects with joints. A joint attaches the pendulum arm to the bass, and another joint connects ther eaction wheel to the pendulum arm. The animation here is to establish that a viable Coppelia model was made.
 
-# 7. System Simulation
-
-
-# 8. Results and Conclusion
+# 7. Results and Conclusion
 
 While it was possible to establish a link between MATLAB and Coppelia, we were not able to get actual signals to be sent from or to Coppelia. With more time and troubleshooting, it is possible to control the Coppelia model via signals sent from MATLAB, and to have a controler in MATLAB respond accordingly to the measurements it receives from Coppelia.
 Unfortunatly due to not having a working Matlab and Simulink combination, it proved to impossible to control the Coppelia sim. 
-# 9. References
+
+# 8. References
 [1] Hernández-Guzmán Victor Manuel, &amp; Silva-Ortigoza Ramón. (2019). Automatic control with experiments. Springer. 
 
 [2] Brevik, P. (2017). Two-Axis Reaction Wheel Inverted Pendulum.
