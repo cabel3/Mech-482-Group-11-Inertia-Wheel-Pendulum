@@ -124,19 +124,25 @@ Finally, substitution of Q gets the final state-space representation of the syst
 
 # 4. MATLAB Code
 
+Looking for inspiration, a youtube video was found that used an cart with a pendulum attached that utalized both Matlab and Simulink. This was a helpful roadmap that outlined the basics of how to utalize Matlab and Simulink together, but ultimatly skipped some steps. The Matlab Code generated from that tutorial can be seen below. 
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Matlab%20Code/mymodelmatlab'.JPG" />
+</p>
+<p align="center"><b>Figure 12:</b> Matlab Attempt Using Pendulm Cart Tutorial</p>
+
+
+With newfound knowledge of Matlab and Simulink together, many attempts and renditions of both the code side, and the block diagram side were performed to try and yeild a working result. Many different methods were also employed in order to make a working rendition of both softwares but nothing was working all together at the same time. 
 <p align="center">
   <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Matlab%20Code/try4matlab.JPG" />
 </p>
 <p align="center"><b>Figure 11:</b> Matlab Attempt Using State Space</p>
 
 
-<p align="center">
-  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Matlab%20Code/mymodelmatlab'.JPG" />
-</p>
-<p align="center"><b>Figure 12:</b> Matlab Attempt Using Pendulm Cart Tutorial</p>
+
 
 # 5. Simulink Diagram
 
+Utalizing a base provided by 
 <p align="center">
   <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Simulink/try4sim.JPG" />
 </p>
