@@ -16,7 +16,7 @@
 3. Derivation
 4. MATLAB Code
 5. Simulink Diagram
-6. Coppleia Simulation
+6. Coppelia Simulation
 7. System Simulation
 8. Results and Conclusion
 9. References
