@@ -45,13 +45,13 @@ For clarity, the parameters of the system will now be defined:
 * l_c - distance from pivot to center of mass of pendulum
 * m_2 - mass of reaction wheel
 * I_2 - moment of inertia of reaction wheel
-* l_1 - length of pendlum arm, or distance of wheel from pivot
+* l_1 - length of pendulum arm, or distance of wheel from pivot
 * q_1 - angle of pendulum arm relative to positive vertical
 * q_1_dot - angluar velocity of pendulum arm
 * q_1_dot_dot - angluar acceleration of pendulum arm
 * q_2 - angle of wheel relative to pendulum arm
 * q_2_dot - angular velocity of reaction wheel
-* q_2_dot_dot - angluar acceleration of reaction wheel
+* q_2_dot_dot - angular acceleration of reaction wheel
 * tau - torque applied to reaction wheel by motor
 
 Because this system has two degrees of freedom, q_1 for the angle of the pendulum arm and q_2 for the angle of the wheel, two Euler-Lagrange equations are needed to describe the motion of this system. The only force acting on the system is the torque on the wheel applied by a motor.
@@ -175,14 +175,14 @@ This is a view inside the Controller section of the Simulink.
 
 # 6. Coppelia Simulation
 
-To simulates the system as if it were actually physical, a scene of the sytem was created in Coppelia.
+To simulate the system as if it were actually physical, a scene of the system was created in Coppelia.
 
 <p align="center">
   <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Coppelia/Swingin.gif" />
 </p>
 <p align="center"><b>Figure 18</b> Animation of Coppelia Inertia Pendulum </p>
 
-The Coppelia model was created by linking simple objects with joints. A joint attaches the pendulum arm to the bass, and another joint connects ther eaction wheel to the pendulum arm. The animation here is to establish that a viable Coppelia model was made.
+The Coppelia model was created by linking simple objects with joints. A joint attaches the pendulum arm to the bass, and another joint connects the reaction wheel to the pendulum arm. The animation here is to establish that a viable Coppelia model was made.
 
 # 7. Results and Conclusion
 
