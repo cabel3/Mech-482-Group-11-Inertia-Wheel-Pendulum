@@ -177,11 +177,16 @@ This is a view inside the Controller section of the Simulink.
 </p>
 <p align="center"><b>Figure 17</b> Simulink Controller Attempt From Tutorial </p>
 
-
-
-
 # 6. Coppelia Simulation
 
+To simulates the system as if it were actually physical, a scene of the sytem was created in Coppelia.
+
+<p align="center">
+  <img src="https://github.com/cabel3/Mech-482-Group-11-Inertia-Wheel-Pendulum/blob/main/MATLAB%2C%20Simulink%2C%20Coppelia/Coppelia/Swingin.gif" />
+</p>
+<p align="center"><b>Figure 18</b> Animation of Coppelia Inertia Pendulum </p>
+
+While it was possible to establish a link between MATLAB and Coppelia, we were not able to get actual signals to be sent from or to Coppelia, rendering this physical model uncontrolled.
 
 # 7. System Simulation
 
