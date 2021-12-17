@@ -187,3 +187,5 @@ This is a view inside the Controller section of the Simulink.
 [1] Hernández-Guzmán Victor Manuel, &amp; Silva-Ortigoza Ramón. (2019). Automatic control with experiments. Springer. 
 
 [2] Brevik, P. (2017). Two-Axis Reaction Wheel Inverted Pendulum.
+
+[3] Turnwald, Alen. “State Space Control for the Pendulum-Cart System: A Short Tutorial on Using MATLAB® and Simulink®.” YouTube, Technical University of Kaiserslautern, 7 Feb.      2018, https://www.youtube.com/watch?v=hAI8Ag3bzeE. 
